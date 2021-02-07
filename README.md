@@ -1,6 +1,6 @@
 # LSTM_activity_recognition
 # Abstract 
-I implement
+I implement the task of activity recognition from a video by using convolutional LSTM network. The reason i choose this network is because LSTM can learn the temporal dependencies between frames of a video.
 
 
 # Data preparation
