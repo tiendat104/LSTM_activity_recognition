@@ -8,6 +8,7 @@ Please download file data.zip from this link: https://kaistackr-my.sharepoint.co
 
 For the visualization of data structure, i have upload a folder name "data" inside this project. 
 
+
 This is how i create this dataset: 
 
 Create two subfolder "videos" and "imgs" inside folder "data". The folder "data/videos" contains files for videos from 5 classes ["ApplyEyeMakeup", "Archery", "Biking", "Fencing", "Fencing", "Kayaking"]. Then, i generate all frames for each video and save these frames into folder "data/imgs", and use a base model (InceptionV3) to extract features for each frame, and finally stack them together to create a file .npy that contains extracted information for a video. The .npy files are saved into folder "sequences", that would be used for training. 
